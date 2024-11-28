@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Akhila_Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Bootstrap and Bootstrap Icons -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- AOS (Animate On Scroll) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <!-- Bootstrap Icons CDN -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet"> -->
+  <!-- AOS (Animate On Scroll) Library -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- Typed.js Library -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  
+  <!-- EmailJS JS File  -->
+  <!-- <script src="https://cdn.emailjs.com/dist/email.min.js"></script> -->
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+
+<script type="text/javascript">
+    // Initialize EmailJS
+  emailjs.init('GV55mqxNshF1khpeD')
+</script>
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Akhila K</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <!--<a href="https://github.com/Akhilajan27" class="github"><i class="bi bi-instagram"></i></a>-->
+      <a href="https://github.com/Akhilajan27" class="github" target="_blank" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.youtube.com/@LearnWithMe-jw1bt" target="_blank" class="youtube" aria-label="YouTube">
+        <i class="fa-brands fa-youtube"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/akhila-k-tech/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#publications"><i class="bi bi-book navicon"></i>Publications</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="#certificates"><i class="bi bi-award navicon"></i> Certificates</a></li>
+        <!-- <li><a href="#Testimonials"><i class="bi bi-chat-left-quote navicon"></i> Testimonials</a></li> -->
+        <!-- <li><a href="#services"><i class="bi bi-gear navicon"></i> Services</a></li> 
+
+        <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a> 
+          <ul>
+            <li><a href="#">Dropdown 1</a></li>
+            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Deep Dropdown 1</a></li>
+                <li><a href="#">Deep Dropdown 2</a></li>
+                <li><a href="#">Deep Dropdown 3</a></li>
+                <li><a href="#">Deep Dropdown 4</a></li>
+                <li><a href="#">Deep Dropdown 5</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Dropdown 2</a></li>
+            <li><a href="#">Dropdown 3</a></li>
+            <li><a href="#">Dropdown 4</a></li>
+          </ul>
+        </li> -->
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" class="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Akhila K</h2>
+        <p>I'm <span class="typed" data-typed-items="Developer, Data Analyst, Lecturer">Developer</span>
+        <span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>I am a budding data analyst, developer, and educator with a passion for technology, data-driven insights, and continuous learning.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="assets/img/my-profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Data Analyst | Developer | Educator</h2>
+            <p class="fst-italic py-3">
+              I specialize in transforming data into strategic business insights as a Data Analyst. As a Developer, I create innovative solutions to meet diverse business needs, and as an Educator, I am passionate about mentoring and helping others grow in the technology field.
+            </p>
+            <div class="row">
+              <!-- <div class="col-lg-6"> -->
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+919656143099</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>Akhila.jan27@gmail.com</span></li>
+                  
+                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Masters in Computer and Information Science</span></li> -->
+                  <li><i class="bi bi-chevron-right"></i> <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/akhila-k-tech/" target="_blank">https://www.linkedin.com/in/akhila-k-tech/</a></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>GitHub:</strong> <a href="https://github.com/Akhilajan27" target="_blank">https://github.com/Akhilajan27</a></li><!-- <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Nilambur, Kerala, India</span></li> -->
+                
+                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>27 January 1992</span></li> -->
+                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li> -->
+                  </ul>
+              <!-- </div> -->
+              <!-- <div class="col-lg-6"> -->
+                <!-- <ul> -->
+                  
+                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>32</span></li> -->
+                  
+                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li> -->
+                <!-- </ul> -->
+              <!-- </div> -->
+            </div>
+            <p class="py-3">
+              My mission is to continually leverage my skills in these areas to make a lasting impact in both the academic and professional worlds.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <!-- <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <!-- <div class="col-lg-3 col-md-6"> 
+            <div class="stats-item">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
+            </div>
+          </div>--><!-- End Stats Item 
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <!-- <div class="col-lg-3 col-md-6"> 
+            <div class="stats-item">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        <!-- </div> 
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <section id="skills" class="skills section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>Proficient in Python, C, C++, Power BI, data visualization, software development, and building efficient algorithms to solve complex problems.</p>
+      </div>
+    
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row skills-content">
+          <div class="col-lg-6">
+            <div class="progress">
+              <div class="skill">HTML <span class="val">70%</span></div>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 70%;"></div>
+              </div>
+            </div>
+    
+            <div class="progress">
+              <div class="skill">CSS <span class="val">60%</span></div>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 60%;"></div>
+              </div>
+            </div>
+    
+            <div class="progress">
+              <div class="skill">C <span class="val">80%</span></div>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 80%;"></div>
+              </div>
+            </div>
+    
+            <div class="progress">
+              <div class="skill">C++ <span class="val">80%</span></div>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 80%;"></div>
+              </div>
+            </div>
+    
+            <div class="progress">
+              <div class="skill">Python <span class="val">60%</span></div>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 60%;"></div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-6">
+            <div class="progress">
+              <div class="skill">Power BI <span class="val">60%</span></div>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 60%;"></div>
+              </div>
+            </div>
+    
+            <div class="progress">
+              <div class="skill">Machine Learning <span class="val">40%</span></div>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 40%;"></div>
+              </div>
+            </div>
+    
+            <div class="progress">
+              <div class="skill">Data Science <span class="val">40%</span></div>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 40%;"></div>
+              </div>
+            </div>
+    
+            <div class="progress">
+              <div class="skill">Odoo <span class="val">20%</span></div>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 20%;"></div>
+              </div>
+            </div>
+    
+            <div class="progress">
+              <div class="skill">Python-Django <span class="val">40%</span></div>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" style="width: 40%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>Highly motivated and detail-oriented Data Analyst and Developer with expertise in programming languages like C, C++, and Python. Adept at analyzing complex datasets and delivering actionable insights using tools like Power BI. Passionate about leveraging technology to solve real-world problems and improve business outcomes.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Summary</h3>
+
+            <div class="resume-item pb-0">
+              <h4>Akhila K</h4>
+              <p><em>As a Data Analyst, Developer, and Educator, I bring a unique blend of technical expertise and teaching experience. With strong skills in Python, C++, and Power BI, I analyze complex data to create insights that fuel business decisions. In my role as an educator, I mentor and guide students, helping them understand data science, software development, and programming concepts. I am passionate about developing data-driven solutions and empowering others to thrive in the tech industry.</em></p>
+              <ul>
+                <li>Nilambur, Kerala, India</li>
+                <li>+91 9656143099</li>
+                <li>Akhila.jan27@gmail.com</li>
+                <li><a href="https://www.linkedin.com/in/akhila-k-tech/">https://www.linkedin.com/in/akhila-k-tech/</a></li>
+                <li><a href="https://github.com/Akhilajan27">https://github.com/Akhilajan27</a></li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Master of Technology in Computer and Information Science</h4>
+              <h5>2016 - 2018</h5>
+              <p><em>APJ Abdul Kalam Technological University (KTU)</em></p>
+              <p>The program provided deep insights into modern computing technologies and equipped me with the skills to solve real-world problems using data-driven approaches.</p>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>Bachelor of Technology in Information Technology</h4>
+              <h5>2009 - 2013</h5>
+              <p><em>Cusat</em></p>
+              <p>Developed a strong understanding of computer systems, programming, and networking. The program emphasized practical problem-solving skills and exposed me to the latest advancements in technology, equipping me for the evolving IT industry.</p>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>AI DATA ENGINEER INTERN
+              </h4>
+              <h5>2024 July - 2024 Nov</h5>
+              <p><em>Ministry of Rural Development | Adoor</em></p>
+              <ul>
+                <li>Collaborated with the team to analyze project requirements and contribute to AI-driven solutions.</li>
+                <li>Gained hands-on experience with Python, data analysis tools, and machine learning frameworks under expert supervision.</li>
+                <li>Conducted data quality checks and performed exploratory data analysis to derive actionable insights for decision-making.
+                </li>
+                </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>COMPUTER PROGRAMMING TRAINER</h4>
+              <h5>May 2021- Oct 2022</h5>
+              <p><em>Oxford community college, Approved
+                center of Kerala Govt. Technical Education (KGTE) | Kerala, India</em></p>
+              <ul>
+                <li>Delivered structured training programs on foundational and advanced computer programming concepts, including Python, C, SQL and C++.</li>
+                <li>Guided and mentored students, ensuring a comprehensive understanding of programming principles and best practices.</li>
+                <li>Evaluated student performance through assignments, projects, and assessments, providing constructive feedback for improvement.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+            <div class="resume-item">
+              <h4>GUEST LECTURER</h4>
+              <h5>Dec 2020-Mar 2021</h5>
+              <p><em>Ambedkar College of Arts and Science | Kerala, India</em></p>
+              <ul>
+                <li>Delivered lectures on core computer programming concepts, including Python, C, OS, Boolean Algebra, Data Structures and C++ to undergraduate students.</li>
+                <li>Prepared and executed lesson plans to ensure students grasped both theoretical knowledge and practical applications.</li>
+                <li>Mentored students on academic projects and guided them in applying programming principles to real-world scenarios.</li>
+                <li>Assessed student performance through quizzes, assignments, and projects, providing detailed feedback to foster improvement.</li>
+              </ul>
+            </div><!-- Edn Resume Item -->
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <section id="publications" class="publication">
+      <h2>Publications</h2>
+      <p>This section includes my published research papers, articles, and academic contributions in various journals and conferences.</p>
+      <ul>
+          <li>
+              <strong>LIVER IMAGE FEATURE EXTRACTION AND CLASSIFICATION TECHNIQUES FOR ANALYZING LIVER CIRRHOSIS</strong> – 
+              This publication explores advanced techniques in medical image processing, focusing on feature extraction and classification methods used to analyze liver cirrhosis from medical imaging data. It discusses various approaches for accurate diagnosis and prediction.
+          </li>
+          <a href="https://www.ijcrt.org/papers/IJCRT1812917.pdf" target="_blank">
+              https://www.ijcrt.org/papers/IJCRT1812917.pdf
+          </a>
+          <br>
+          <strong>Publication Certificate:</strong><br>
+          <img src="./assets/img/ijcrt.PNG" alt="Publication Certificate" style="max-width: 300px; height: auto; margin-top: 10px;">
+      </ul>
+  </section>
+  
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Delve into my portfolio showcasing a diverse range of projects, that highlight my expertise in Machine Learning, Web development, data analytics, and innovative tech solutions. Each project is crafted with precision, creativity, and a focus on delivering value-driven outcomes tailored to meet unique needs.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Machine Learning</li>
+            <li data-filter=".filter-product">Web development</li>
+            <li data-filter=".filter-branding">PowerBI</li>
+            <!-- <li data-filter=".filter-books">Books</li> -->
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/liver.webp" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Machine Learning Project 1</h4>
+                  <p>Enhancement of classification accuracy of the adaptive classifier to diagnose liver cirrhosis in medical
+                    image processing using python and OpenCV.</p>
+                  <a href="assets/img/portfolio/preprocess.PNG" title="Preprocessing" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/steps.PNG" title="Basic Steps" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <!-- <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a> -->
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"> 
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/cloud.avif" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Web Development Project 1</h4>
+                  <p>Estimating rainfall using cloud images. (java, Android)</p>
+                  
+                  <a href="assets/img/portfolio/cloudsteps.PNG" title="Steps" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"> 
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/clgvadakara.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Web Development Project 2</h4>
+                  <p>Mini Project | College website using ASP.NET and C#</p>
+                  
+                  <a href="assets/img/portfolio/clg.PNG" title="Steps" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/matrimonial.PNG" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Web Development Project 3</h4>
+                  <p>Mini Project | Matrimonial website using ASP . Net (C#)</p>
+                  
+                  <a href="assets/img/portfolio/matristeps.PNG" title="Steps" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>-->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/HR_ANALYSIS.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>PowerBI Project 1</h4>
+                  <p> Human Resources analysis using PowerBI</p>
+                  <a href="assets/img/portfolio/HR_ANALYSIS.jpg" title="HR_ANALYSIS" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <!-- <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"> 
+                <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 1</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>App 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>End Portfolio Item 
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div> 
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Branding 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="assets/img/portfolio/preprocess.PNG" title="Preprocessing" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 2</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>App 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Product 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Branding 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Books 3</h4>
+                  <p>Lorem ipsum, dolor sit amet consectetur</p>
+                  <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Certificate Section -->
+    <section id="certificates" class="certificates">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Certificates</h2>
+        <p>Here are the certifications I have earned during my professional journey and internships.</p>
+      </div>
+      <div class="certificate-gallery" data-aos="fade-up">
+        <div class="certificate-item">
+          <img src="D:\iPortfolio-1.0.0\assets\img\novitech.PNG" alt="Data Analytics MasterClass Certificate" class="certificate-image">
+          <p><strong>Data Analytics MasterClass</strong></p>
+          <p>Issued by NoviTech R&D Private Limited (August 19 - September 18, 2024)</p>
+        </div>
+        <div class="certificate-item">
+          <img src="D:\iPortfolio-1.0.0\assets\img\portfolio\jobaj.jpg" alt="Tableau Workshop Certificate" class="certificate-image">
+          <p><strong>Tableau Workshop</strong></p>
+          <p>Issued by Jobaaj Learning (August 2024)</p>
+        </div>
+      </div>
+    </section>
+    
+
+      <!-- Section Title
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>As a passionate tech enthusiast, I specialize in delivering innovative solutions in software development, machine learning, and web applications. My services focus on creating impactful, user-centric designs, optimizing business processes, and leveraging cutting-edge technologies to solve real-world challenges. Let’s transform your vision into reality with precision and efficiency.</p>
+      </div><!-- End Section Title 
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-brain" style="font-size: 3rem; color: #007bff;"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Machine Learning Solutions</a></h4>
+              <p class="description">Designing and implementing machine learning models for predictive analytics and business solutions.</p>
+            </div>
+          </div>
+          End Service Item 
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="bi bi-laptop-code" ></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Web Development</a></h4>
+              <p class="description">Creating dynamic, responsive, and visually appealing websites using the latest technologies. Whether it's front-end development, back-end solutions, or full-stack integration, I ensure seamless user experiences across all devices.</p>
+            </div>
+          </div>End Service Item 
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart" ></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Data Analytics & Reporting</a></h4>
+              <p class="description">Transforming raw data into actionable insights. I specialize in creating comprehensive data visualizations and interactive dashboards to help businesses make informed decisions. From statistical analysis to trend forecasting, I bring data to life.</p>
+            </div>
+          </div>End Service Item
+
+          <!--<div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon flex-shrink-0"><i class="bi bi-binoculars"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Magni Dolores</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!--<div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon flex-shrink-0"><i class="bi bi-brightness-high"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Nemo Enim</a></h4>
+              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!--<div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week"></i></div>
+            <div>
+              <h4 class="title"><a href="service-details.html" class="stretched-link">Eiusmod Tempor</a></h4>
+              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            </div>
+          </div><!-- End Service Item
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section
+
+    <!-- Testimonials Section -->
+    <!--<section id="testimonials" class="testimonials section light-background">
+
+      Section Title 
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title 
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 1,
+                  "spaceBetween": 40
+                },
+                "1200": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 1
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div><!-- End testimonial item 
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+              </div>
+            </div><!-- End testimonial item 
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+              </div>
+            </div><!-- End testimonial item 
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div><!-- End testimonial item 
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+              </div>
+            </div><!-- End testimonial item 
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>I'm actively seeking opportunities in the tech industry, ready to contribute and collaborate on exciting projects.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Kakkuzhi house, Thottekkad, Amarambalam post, 679332 pin, Malappuram Dist</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Phone</h3>
+                  <p>+919656143099</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>Akhila.jan27@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form id="contact-form"  method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
